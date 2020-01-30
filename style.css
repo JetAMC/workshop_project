@@ -51,7 +51,6 @@ body{
 /* Text block */
 .text_block {
     width: 549px;
-    height: 304px;
     color: #fff;
     margin-top: 150px;
 }
@@ -101,16 +100,14 @@ body{
     border-radius: 6px;
     margin: 0 auto;
     margin-top: -50px;
+    padding-top: 95px;
     padding-left: 135px;
     padding-right: 135px;
     text-align: center;
 }
 .second_block .text_block {
-    position: relative;
-    top: 95px;
-    width: 730px;
     margin: 0 auto;
-    height: 250px;
+    margin-bottom: 161px;
 }
 .second_block .text_block h2 {
     color:#3C4858;
@@ -119,29 +116,26 @@ body{
     line-height: 43px;
     margin: 0;
 }
-.second_block .text_block h3 {
-    color:#3C4858;
-    font-weight: normal;
-    font-size: 36.4px;
-    line-height: 43px;
-    margin: 0;
-    margin-top: 90px;
-}
 .second_block .small_text {
     color: #999;
     font-weight: 300;
     font-size: 17.5px;
-    line-height: 21px;
+    line-height: 1.33;
     margin-top: 40px;
+    max-width: 740px;
 }
 .second_block .card_area {
     display: flex;
     justify-content: center;
+    margin-bottom: 208px;
+}
+.second_block .card_area .card:last-child {
+    margin-right: 0px;
 }
 .second_block .card_area .card {
     width: 328px;
     height: 201px;
-    margin-top: 90px;
+    margin-right: 62px;
 }
 .second_block .card_area .card .card_title {
     font-weight: 500;
@@ -154,15 +148,33 @@ body{
     font-weight: 300;
     font-size: 14px;
     font-style: normal;
-    line-height: 16px;
+    line-height: 1.33;
     color: #999;
     margin-top: 18px;
 }
 /* Card Team */
+.card_area2 .title_area h3 {
+    color:#3C4858;
+    font-weight: normal;
+    font-size: 36.4px;
+    line-height: 43px;
+    margin: 0;
+}
+.card_area2 {
+    margin-bottom: 182px;
+}
+.card_area2 .card_team:last-child {
+    margin-right: 0px;
+}
+.team {
+    display: flex;
+    justify-content: center;
+}
 .card_team {
     width: 352px;
     height: 412px;
-    margin-bottom: 20px;
+    margin-top: 86px;
+    margin-right: 39px;
 }
 .card_team .photo img {
     box-shadow: 0px 16px 30px rgba(0, 0, 0, 0.3), 0px 4px 10px rgba(0, 0, 0, 0.3);
@@ -185,7 +197,7 @@ body{
 .card_team .text {
     font-weight: 300;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.33;
     color: #999;
     margin-top: 35px;
 }
@@ -210,5 +222,5 @@ body{
     border: 0;
     width: 361px;
     height: 38px;
-    border-bottom: 1px solid #777;
+    border-bottom: 1px solid #999;
 }
