@@ -110,6 +110,7 @@ body{
     top: 95px;
     width: 730px;
     margin: 0 auto;
+    height: 250px;
 }
 .second_block .text_block h2 {
     color:#3C4858;
@@ -125,7 +126,6 @@ body{
     line-height: 43px;
     margin: 0;
     margin-top: 90px;
-    border: 1px solid #000;
 }
 .second_block .small_text {
     color: #999;
@@ -159,7 +159,45 @@ body{
     margin-top: 18px;
 }
 /* Card Team */
-.second_block .card_area .card_team {
+.card_team {
     width: 352px;
     height: 412px;
+}
+.card_team .photo img {
+    box-shadow: 0px 16px 30px rgba(0, 0, 0, 0.3), 0px 4px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+}
+.card_team .name {
+    font-weight: 500;
+    font-size: 18.2px;
+    line-height: 21px;
+    color: #3C4858;
+    margin-top: 32px;
+}
+.card_team .position {
+    font-weight: 500;
+    font-size: 13.65px;
+    line-height: 16px;
+    color: #777;
+    margin-top: 7px;
+}
+.card_team .text {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #999;
+    margin-top: 35px;
+}
+.card_team .text a {
+    color: #9C27B0;
+    text-decoration: none;
+}
+.card_team .socials {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.card_team .socials a {
+    margin-left: 15px;
+    margin-right: 15px;
 }
