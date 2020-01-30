@@ -1,0 +1,165 @@
+html {
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    padding: 0;
+    margin: 0;
+    background: #E5E5E5;
+}
+.container {
+    width: 1128px;
+    margin: 0 auto;
+}
+/* Main block */
+.main_block {
+    background: url(images/Rectangle.jpg) no-repeat center;
+    background-size: cover;
+    height: 726px;
+}
+/* Navigation bar */
+.nav_bar {
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 37px;
+}
+.left_side a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+}
+.right_side {
+    font-style: normal;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+}
+.right_side #download {
+    display: flex;
+    align-items: center;
+}
+.right_side a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 25px;
+}
+.right_side span {
+    margin-left: 5px;
+}
+/* Text block */
+.text_block {
+    width: 549px;
+    height: 304px;
+    color: #fff;
+    margin-top: 150px;
+}
+.text_block h1 {
+    font-size: 53.2px;
+    margin: 0;
+    font-weight: 500;
+    line-height: 62px;
+    font-style: normal;
+    height: 125px;
+}
+.text_block .small_text {
+    font-size: 18.2px;
+    line-height: 21px;
+    font-weight: 300;
+    font-style: normal;
+    margin-top: 10px;
+}
+.text_block .video {
+    background: #F44336;
+    box-shadow: 0px 2px 2px rgba(244, 67, 54, 0.14);
+    border-radius: 3px;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+    color: #fff;
+    width: 179px;
+    text-transform: uppercase;
+    height: 54px;
+    border: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+.text_block .video span {
+    margin-left: 5px;
+}
+/* second block */
+.second_block {
+    width: 930px;
+    height: 2045px;
+    background: #fff;
+    box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.14), 0px 8px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    margin: 0 auto;
+    margin-top: -50px;
+    padding-left: 135px;
+    padding-right: 135px;
+    text-align: center;
+}
+.second_block .text_block {
+    position: relative;
+    top: 95px;
+    width: 730px;
+    margin: 0 auto;
+}
+.second_block .text_block h2 {
+    color:#3C4858;
+    font-weight: normal;
+    font-size: 36.4px;
+    line-height: 43px;
+    margin: 0;
+}
+.second_block .text_block h3 {
+    color:#3C4858;
+    font-weight: normal;
+    font-size: 36.4px;
+    line-height: 43px;
+    margin: 0;
+    margin-top: 90px;
+    border: 1px solid #000;
+}
+.second_block .small_text {
+    color: #999;
+    font-weight: 300;
+    font-size: 17.5px;
+    line-height: 21px;
+    margin-top: 40px;
+}
+.second_block .card_area {
+    display: flex;
+    justify-content: center;
+}
+.second_block .card_area .card {
+    width: 328px;
+    height: 201px;
+    margin-top: 90px;
+}
+.second_block .card_area .card .card_title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #3C4858;
+    margin-top: 31px;
+}
+.second_block .card_area .card .description {
+    font-weight: 300;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 16px;
+    color: #999;
+    margin-top: 18px;
+}
+/* Card Team */
+.second_block .card_area .card_team {
+    width: 352px;
+    height: 412px;
+}
