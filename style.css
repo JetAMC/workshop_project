@@ -10,6 +10,9 @@ body{
     width: 1128px;
     margin: 0 auto;
 }
+input {
+    font-family: 'Roboto', sans-serif;
+}
 /* Main block */
 .main_block {
     background: url(images/Rectangle.jpg) no-repeat center;
@@ -95,7 +98,6 @@ body{
 /* second block */
 .second_block {
     width: 930px;
-    height: 2045px;
     background: #fff;
     box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.14), 0px 8px 10px rgba(0, 0, 0, 0.2);
     border-radius: 6px;
@@ -104,6 +106,7 @@ body{
     padding-top: 95px;
     padding-left: 135px;
     padding-right: 135px;
+    padding-bottom: 83px;
     text-align: center;
 }
 .second_block .text_block {
@@ -216,12 +219,80 @@ body{
     margin-right: 15px;
 }
 /* Form area */
+.last_block {
+    max-width: 753px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.text_block3 {
+    margin: 0 auto;
+    margin-bottom: 36px;
+    max-width: 720px;
+}
+.text_block3 h2 {
+    color:#3C4858;
+    font-weight: normal;
+    font-size: 36.4px;
+    line-height: 43px;
+    margin-bottom: 40px;
+}
+.text_block3 .small_text2 {
+    color: #999;
+    font-weight: 300;
+    font-size: 17.5px;
+    line-height: 1.33;
+    margin-bottom: 30px;
+}
 .form_area {
-    margin-top: 30px;
+    
+}
+.form_area .input_field_flex {
+    display: flex;
+    justify-content: space-around;
+    max-width: 720px;
+}
+.form_area .input_field {
+    margin-bottom: 38px;
+    width: 100%;
+    margin-left: 29px;
+}
+.form_area .input_field_second {
+    width: 100%;
+    margin-left: 29px;
+    margin-bottom: 25px;
 }
 .form_area input {
     border: 0;
-    width: 361px;
-    height: 38px;
-    border-bottom: 1px solid #999;
+    font-size: 12px;
+    padding: 3px 0;
+    border-bottom: 1px solid silver;
+    height: 32px;
+    width: 100%;
+}
+.form_area textarea {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    border: 0;
+    padding: 3px 0 0 0;
+    border-bottom: 1px solid silver;
+    resize: none;
+    height: 88px;
+    width: 100%;
+}
+.form_area input::placeholder {
+    color: silver;
+}
+.form_area textarea::placeholder {
+    color: silver;
+}
+.form_area .form_button {
+    border: 0px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    background: #9C27B0;
+    box-shadow: 0px 2px 2px rgba(156, 39, 176, 0.2);
+    border-radius: 3px;
+    text-transform: uppercase;
+    height: 41px;
+    padding: 0 30px 0 30px;
 }
