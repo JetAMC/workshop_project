@@ -243,9 +243,6 @@ input {
     line-height: 1.33;
     margin-bottom: 30px;
 }
-.form_area {
-    
-}
 .form_area .input_field_flex {
     display: flex;
     justify-content: space-around;
@@ -295,4 +292,34 @@ input {
     text-transform: uppercase;
     height: 41px;
     padding: 0 30px 0 30px;
+}
+/* footer */
+.footer {
+    padding-top: 29px;
+    padding-bottom: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer_left_side {
+    padding-left: 165px;
+}
+.footer_right_side {
+    padding-right: 153px;
+}
+.footer_left_side a {
+    text-transform: uppercase;
+    color: #333;
+    font-size: 12px;
+    line-height: 1.33;
+    font-weight: 500;
+    font-style: normal;
+    text-decoration: none;
+    margin-left: 33px;
+}
+.footer_right_side div {
+    font-size: 10px;
+    line-height: 1.33;
+    color: #000;
+    font-weight: normal;
+    font-style: normal;
 }
