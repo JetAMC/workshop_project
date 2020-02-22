@@ -1,0 +1,132 @@
+@media screen and (max-width: 1050px) {
+    .second_block .card_area {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .second_block .card_area .card {
+        padding: 10px;
+        margin-right: 0;
+        margin-bottom: 50px;
+    }
+    .team {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .card_team {
+        margin-right: 0;
+        padding: 10px;
+    }
+}
+@media screen and (max-width: 920px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer_left_side {
+        padding-left: 0;
+        margin-bottom: 20px;
+    }
+    .footer_left_side a:first-child {
+        margin-left: 0;
+    }
+    .footer_right_side {
+        padding-right: 0;
+    }
+}
+@media screen and (max-width: 870px) {
+    .input_field_flex {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media screen and (max-width: 520px) {
+    .nav_bar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 20px;
+    }
+    .left_side {
+        margin-bottom: 20px;
+    }
+    .main_block_title h1 {
+        font-size: 40px;
+    }
+    /* second block */
+    .second_block {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .second_block .text_block h2 {
+        font-size: 30px;
+    }
+    .second_block .card_area {
+        flex-direction: column;
+        align-items: center;
+    }
+    .second_block .card_area .card {
+        margin-bottom: 50px;
+        margin-right: 0;
+    }
+    /* card team */
+    .card_area2 .title_area h3 {
+        font-size: 30px;
+    }
+    .team {
+        flex-direction: column;
+        align-items: center;
+    }
+    .card_team {
+        margin-right: 0;
+    }
+    /*form area */
+    .text_block3 h2 {
+        font-size: 30px;
+    }
+    .input_field_flex {
+        flex-direction: column;
+        align-items: center;
+    }
+    .input_field {
+        margin-left: 0;
+    }
+    /* footer */
+    .footer {
+        flex-direction: column;
+    }
+    .footer_left_side {
+        padding-left: 0;
+        margin-bottom: 20px;
+    }
+    .footer_left_side a:first-child {
+        margin-left: 0;
+    }
+    .footer_right_side {
+        padding-right: 0;
+    }
+}
+@media screen and (max-width: 350px) {
+    .right_side {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .right_side a {
+        margin-bottom: 20px;
+    }
+    .footer_left_side {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer_left_side a {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+
+
+
+
+
+
+
+
