@@ -39,6 +39,15 @@
         flex-direction: column;
         align-items: center;
     }
+    .second_block .card_area .card {
+        margin-right: 0;
+    }
+    .form_area .input_field {
+        margin-left: 0;
+    }
+    .form_area .input_field_second {
+        margin-left: 0;
+    }
 }
 @media screen and (max-width: 520px) {
     .nav_bar {

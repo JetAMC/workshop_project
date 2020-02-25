@@ -148,8 +148,7 @@ input {
     margin-right: 0px;
 }
 .second_block .card_area .card {
-    width: 328px;
-    height: 201px;
+    max-width: 328px;
     margin-right: 62px;
 }
 .second_block .card_area .card .card_title {
@@ -258,15 +257,18 @@ input {
     display: flex;
     justify-content: space-around;
     max-width: 720px;
+    margin: 0 auto;
 }
 .form_area .input_field {
     margin-bottom: 38px;
     width: 100%;
     margin-left: 29px;
 }
+.form_area .input_field:first-child {
+    margin-left: 0;
+}
 .form_area .input_field_second {
     width: 100%;
-    margin-left: 29px;
     margin-bottom: 25px;
 }
 .form_area input {
@@ -334,9 +336,3 @@ input {
     font-weight: normal;
     font-style: normal;
 }
-
-
-left side pervaja
-right side vtoraja
-viravnivaem ih po centru pri razmere 500px
-h1 delaem menshe
