@@ -185,8 +185,7 @@ input {
     justify-content: center;
 }
 .card_team {
-    width: 352px;
-    height: 412px;
+    max-width: 352px;
     margin-top: 86px;
     margin-right: 39px;
 }
