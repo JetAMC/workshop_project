@@ -26,7 +26,6 @@ input {
 }
 /* Navigation bar */
 .nav_bar {
-
     display: flex;
     justify-content: space-between;
     padding-top: 37px;
