@@ -4,10 +4,11 @@ html {
 * {
     box-sizing: border-box;
 }
-body{
+body {
     padding: 0;
     margin: 0;
     background: #E5E5E5;
+    line-height: 1.33;
 }
 input {
     font-family: 'Roboto', sans-serif;
@@ -25,7 +26,7 @@ input {
 }
 /* Navigation bar */
 .nav_bar {
-    height: 24px;
+
     display: flex;
     justify-content: space-between;
     padding-top: 37px;
@@ -41,9 +42,7 @@ input {
     align-items: center;
 }
 .right_side {
-    font-style: normal;
     font-size: 12px;
-    line-height: 14px;
     text-transform: uppercase;
     display: flex;
     align-items: center;
@@ -69,15 +68,11 @@ input {
     font-size: 52px;
     margin: 0;
     font-weight: 500;
-    line-height: 1.33;
-    font-style: normal;
     margin-bottom: 10px;
 }
 .main_block_title .small_text {
     font-size: 18px;
-    line-height: 1.33;
     font-weight: 300;
-    font-style: normal;
     margin-bottom: 40px;
 }
 .main_block_title .video {
@@ -85,9 +80,6 @@ input {
     box-shadow: 0px 2px 2px rgba(244, 67, 54, 0.14);
     border-radius: 3px;
     font-size: 14px;
-    line-height: 16px;
-    font-weight: normal;
-    font-style: normal;
     text-align: center;
     color: #fff;
     width: 179px;
@@ -127,15 +119,13 @@ input {
 .second_block .text_block h2 {
     color:#3C4858;
     font-weight: normal;
-    font-size: 36.4px;
-    line-height: 43px;
+    font-size: 36px;
     margin: 0;
 }
 .second_block .small_text {
     color: #999;
     font-weight: 300;
-    font-size: 17.5px;
-    line-height: 1.33;
+    font-size: 17px;
     margin-top: 40px;
     max-width: 740px;
 }
@@ -145,7 +135,7 @@ input {
     margin-bottom: 208px;
 }
 .second_block .card_area .card:last-child {
-    margin-right: 0px;
+    margin-right: 0;
 }
 .second_block .card_area .card {
     max-width: 328px;
@@ -154,15 +144,12 @@ input {
 .second_block .card_area .card .card_title {
     font-weight: 500;
     font-size: 20px;
-    line-height: 23px;
     color: #3C4858;
     margin-top: 31px;
 }
 .second_block .card_area .card .description {
     font-weight: 300;
     font-size: 14px;
-    font-style: normal;
-    line-height: 1.33;
     color: #999;
     margin-top: 18px;
 }
@@ -170,15 +157,14 @@ input {
 .card_area2 .title_area h3 {
     color:#3C4858;
     font-weight: normal;
-    font-size: 36.4px;
-    line-height: 43px;
+    font-size: 36px;
     margin: 0;
 }
 .card_area2 {
     margin-bottom: 182px;
 }
 .card_area2 .card_team:last-child {
-    margin-right: 0px;
+    margin-right: 0;
 }
 .team {
     display: flex;
@@ -195,22 +181,19 @@ input {
 }
 .card_team .name {
     font-weight: 500;
-    font-size: 18.2px;
-    line-height: 21px;
+    font-size: 18px;
     color: #3C4858;
     margin-top: 32px;
 }
 .card_team .position {
     font-weight: 500;
-    font-size: 13.65px;
-    line-height: 16px;
+    font-size: 14px;
     color: #777;
     margin-top: 7px;
 }
 .card_team .text {
     font-weight: 300;
     font-size: 14px;
-    line-height: 1.33;
     color: #999;
     margin-top: 35px;
 }
@@ -241,15 +224,13 @@ input {
 .text_block3 h2 {
     color:#3C4858;
     font-weight: normal;
-    font-size: 36.4px;
-    line-height: 43px;
+    font-size: 36px;
     margin-bottom: 40px;
 }
 .text_block3 .small_text2 {
     color: #999;
     font-weight: 300;
-    font-size: 17.5px;
-    line-height: 1.33;
+    font-size: 17px;
     margin-bottom: 30px;
 }
 .form_area .input_field_flex {
@@ -295,7 +276,7 @@ input {
     color: silver;
 }
 .form_area .form_button {
-    border: 0px;
+    border: 0;
     color: #fff;
     font-family: 'Roboto', sans-serif;
     background: #9C27B0;
@@ -322,16 +303,11 @@ input {
     text-transform: uppercase;
     color: #333;
     font-size: 12px;
-    line-height: 1.33;
     font-weight: 500;
-    font-style: normal;
     text-decoration: none;
     margin-left: 33px;
 }
 .footer_right_side div {
     font-size: 10px;
-    line-height: 1.33;
     color: #000;
-    font-weight: normal;
-    font-style: normal;
 }
